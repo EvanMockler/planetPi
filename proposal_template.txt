@@ -1,0 +1,20 @@
+# Project Name
+#### Student Name: Evan Mockler   Student ID: 20046295
+
+TODO: My project will involve turning the Pi into a tool to locate the planets based on your location. I will then
+show some indication on the LED's that the Pi is facing in the correct position for the planet required.
+
+
+## Tools, Technologies and Equipment
+Outside of the Pi and SenseHat I may use a small screen for interaction or I may just use the LED display along with the joystick. 
+
+
+TODO: Write a list of things you propose to use in your work. This can be hardware, programming languages etc.
+I will be using python to program. As I will need to calculate the orientation of the Pi there will be a need for using the
+accelerometer, gyroscope & magnetometer. I was thinking of using the skyfield python package(https://pypi.org/project/skyfield/) to
+aid me with locating the respective planets. 
+
+## Project Repository
+TODO: Create a repository for your project. You can add this proposal to it!
+
+
