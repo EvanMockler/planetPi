@@ -9,6 +9,8 @@ Blynk will also have to be changed.
 Similarly the Twython keys in the key.py file will have to be swapped out for the respective keys provided to the user when 
 setting up a developer API with Twitter.
 
+As a note files deltat.data, deltat.preds,de421.bsp and Leap_Second.dat are part of the Skyfield API library (found at https://rhodesmill.org/skyfield/). This commit only utilises de421.bsp due to only requiring current coordinates of respective planets.
+
 The core script for running the app is path.sh. This script is a bash script that calls location.py and planet.py. Also 
 included is the cron job that is currently running on my pi to start the app on boot.
 The keys.py script holds keys that allow the app to write to Twitter.
